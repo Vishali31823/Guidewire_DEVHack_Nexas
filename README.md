@@ -5,11 +5,11 @@
 
 Gig economy workers such as food delivery partners depend completely on daily earnings. Platforms like Swiggy and Zomato employ thousands of delivery workers who rely on consistent order flow to earn income.
 However, external disruptions such as:
-•	heavy rainfall
-•	extreme heat
-•	severe pollution
-•	platform outages
-•	city restrictions
+-	heavy rainfall
+-	extreme heat
+-	severe pollution
+-	platform outages
+-	city restrictions
 can significantly reduce delivery orders.
 During such events, delivery partners experience income loss despite being willing to work.
 Traditional insurance products do not address temporary income disruption.
@@ -19,24 +19,24 @@ The goal is to provide financial stability and risk protection for gig workers.
 
 ##**Persona**
 
-Name: Ramesh Kumar
-Age: 27
-Platform: Swiggy
-City: Hyderabad
-Vehicle: Motorcycle
-Average Daily Orders: 18
-Average Daily Income: ₹700 – ₹900
-Working Hours: 10 hours/day
+-    Name: Ramesh Kumar
+-    Age: 27
+-    Platform: Swiggy
+-    City: Hyderabad
+-    Vehicle: Motorcycle
+-    Average Daily Orders: 18
+-    Average Daily Income: ₹700 – ₹900
+-    Working Hours: 10 hours/day
 
 Challenges faced:
 
 1.	Extreme Weather
-•	Heavy rain reduces customer orders.
-•	Heatwaves make working dangerous.
+-	Heavy rain reduces customer orders.
+-	Heatwaves make working dangerous.
 2.	Platform Downtime
-•	If the delivery app crashes, he cannot accept orders.
+-	If the delivery app crashes, he cannot accept orders.
 3.	Environmental Conditions
-•	Severe pollution affects rider safety.
+-	Severe pollution affects rider safety.
 These disruptions cause immediate loss of daily earnings.
 
 
@@ -45,24 +45,25 @@ These disruptions cause immediate loss of daily earnings.
 The proposed solution is an AI-driven parametric insurance platform designed specifically for food delivery workers.
 Workers subscribe to a weekly micro-insurance plan that protects their income from disruptions.
 The system continuously monitors external data sources such as:
-•	weather APIs
-•	pollution APIs
-•	platform availability
+-	weather APIs
+-	pollution APIs
+-	platform availability
 If a predefined condition is triggered, the system automatically initiates a claim and payout without requiring the worker to submit a request.
 This ensures:
-•	quick compensation
-•	minimal paperwork
-•	transparent claims process
+-	quick compensation
+-	minimal paperwork
+-	transparent claims process
 
 ##**Weekly Premium Model**
 
 The platform offers weekly subscription-based coverage.
 
 Plan
-Weekly               Premium	     Maximum Payout
-Basic	                20/-	         500/-
-Standard	            40/-	         1000/-
-Premium	                60/-	         1500/-
+| Plan | Weekly Premium | Maximum Payout |
+|------|---------------|----------------|
+| Basic | ₹20 | ₹500 |
+| Standard | ₹40 | ₹1000 |
+| Premium | ₹60 | ₹1500 |
 
 Workers can choose a plan depending on their daily income level.
 
@@ -97,44 +98,44 @@ Impact:
 
 Step 1: Worker Registration
 Information collected:
-•	name
-•	delivery platform
-•	city
-•	average income
-•	preferred insurance plan
+-	name
+-	delivery platform
+-	city
+-	average income
+-	preferred insurance plan
 Step 2: Policy Purchase
-•	Worker selects a weekly plan and activates coverage.
+-	Worker selects a weekly plan and activates coverage.
 Step 3: Risk Monitoring
 The system continuously monitors:
-•	weather data
-•	pollution levels
-•	platform availability
+-	weather data
+-	pollution levels
+-	platform availability
 Step 4: Event Detection
 If a disruption occurs, the system checks whether it meets the parametric trigger conditions.
 Step 5: Claim Validation
 System verifies:
-•	worker location
-•	active policy
-•	eligibility
+-	worker location
+-	active policy
+-	eligibility
 Step 6: Automatic Claim Creation
 
 
 Step 7: Instant Payout
 Compensation is transferred through digital payment methods such as:
-•	UPI
-•	bank transfer
-•	digital wallet
+-	UPI
+-	bank transfer
+-	digital wallet
 
 ##**AI / ML Integration**
 
 1.	Risk Prediction Model
 We need a Risk Prediction Model to estimate how likely delivery disruptions are in a city for a particular week.
 Our model will use:
-•	Temperature data 
-•	Rainfall data 
-•	Air Quality Index (AQI) 
-•	Historical disruption data
-•	Location 
+-	Temperature data 
+-	Rainfall data 
+-	Air Quality Index (AQI) 
+-	Historical disruption data
+-	Location 
 Output of the model
 The model produces a Risk Score.
 
@@ -153,11 +154,11 @@ Your system gives automatic payouts when disruptions occur.
 Some workers might try to cheat the system to get money even when they are not eligible.
 Fraud detection ensures only genuine workers receive payouts.
 The system checks:
-•	Worker GPS location
-•	Event location (rain / heat zone)
-•	Policy active status
-•	Worker activity on delivery platform
-•	Previous claims
+-	Worker GPS location
+-	Event location (rain / heat zone)
+-	Policy active status
+-	Worker activity on delivery platform
+-	Previous claims
 If fraud is detected then payout is blocked.
 
 
@@ -167,31 +168,31 @@ If fraud is detected then payout is blocked.
 Frontend
 React.js
 Features:
-•	worker registration
-•	policy selection
-•	dashboard
-•	claim notifications
+-	worker registration
+-	policy selection
+-	dashboard
+-	claim notifications
 Backend
 Spring Boot
 Services:
-•	user management
-•	policy management
-•	claim automation
-•	event detection
+-	user management
+-	policy management
+-	claim automation
+-	event detection
 AI Layer
 Python
 Libraries used:
-•	scikit-learn
-•	pandas
-•	numpy
+-	scikit-learn
+-	pandas
+-	numpy
 Database
 PostgreSQL
 Tables include:
-•	users
-•	policies
-•	events
-•	claims
-•	payments
+-	users
+-	policies
+-	events
+-	claims
+-	payments
 System Architecture
 Frontend (React Web App)
        ↓
@@ -212,27 +213,27 @@ Database
 ##**Development Plan**
 
 Phase 1
-•	research
-•	idea development
-•	architecture design
-•	documentation
+-	research
+-	idea development
+-	architecture design
+-	documentation
 Phase 2
-•	prototype development
-•	API integration
-•	AI model implementation
+-	prototype development
+-	API integration
+-	AI model implementation
 Phase 3
-•	testing
-•	user interface improvements
-•	demo preparation
+-	testing
+-	user interface improvements
+-	demo preparation
 
 
 ##**Expected Impact**
 
 The proposed system will:
-•	provide financial protection for gig workers
-•	reduce economic uncertainty
-•	automate insurance claims
-•	promote digital insurance adoption
+-	provide financial protection for gig workers
+-	reduce economic uncertainty
+-	automate insurance claims
+-	promote digital insurance adoption
 This solution has the potential to improve financial resilience for millions of delivery workers.
 
 
