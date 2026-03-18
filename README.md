@@ -149,7 +149,7 @@ Our model will use:
 -	Air Quality Index (AQI) 
 -	Historical disruption data
 -	Location
--	
+  
 Output of the model
 
 The model produces a Risk Score.
