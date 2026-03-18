@@ -2,6 +2,7 @@
 #**AI-Powered Parametric Income Protection for Food Delivery Workers.**
 
 ##**Problem Statement**
+
 Gig economy workers such as food delivery partners depend completely on daily earnings. Platforms like Swiggy and Zomato employ thousands of delivery workers who rely on consistent order flow to earn income.
 However, external disruptions such as:
 •	heavy rainfall
@@ -17,6 +18,7 @@ The goal is to provide financial stability and risk protection for gig workers.
 
 
 ##**Persona**
+
 Name: Ramesh Kumar
 Age: 27
 Platform: Swiggy
@@ -27,6 +29,7 @@ Average Daily Income: ₹700 – ₹900
 Working Hours: 10 hours/day
 
 Challenges faced:
+
 1.	Extreme Weather
 •	Heavy rain reduces customer orders.
 •	Heatwaves make working dangerous.
@@ -38,6 +41,7 @@ These disruptions cause immediate loss of daily earnings.
 
 
 ##**Proposed Solution**
+
 The proposed solution is an AI-driven parametric insurance platform designed specifically for food delivery workers.
 Workers subscribe to a weekly micro-insurance plan that protects their income from disruptions.
 The system continuously monitors external data sources such as:
@@ -51,6 +55,7 @@ This ensures:
 •	transparent claims process
 
 ##**Weekly Premium Model**
+
 The platform offers weekly subscription-based coverage.
 
 Plan
@@ -64,6 +69,7 @@ Workers can choose a plan depending on their daily income level.
 
 
 ##**Parametric Triggers**
+
 For food delivery workers, the following are the conditions where the worker may not be able to work.
 1.	Extreme Heat
 Condition:
@@ -88,6 +94,7 @@ Impact:
 
 
 ##**Application Workflow**
+
 Step 1: Worker Registration
 Information collected:
 •	name
@@ -119,6 +126,7 @@ Compensation is transferred through digital payment methods such as:
 •	digital wallet
 
 ##**AI / ML Integration**
+
 1.	Risk Prediction Model
 We need a Risk Prediction Model to estimate how likely delivery disruptions are in a city for a particular week.
 Our model will use:
@@ -155,6 +163,7 @@ If fraud is detected then payout is blocked.
 
 
 ##**Technology Stack**
+
 Frontend
 React.js
 Features:
@@ -201,6 +210,7 @@ Database
 
 
 ##**Development Plan**
+
 Phase 1
 •	research
 •	idea development
@@ -217,6 +227,7 @@ Phase 3
 
 
 ##**Expected Impact**
+
 The proposed system will:
 •	provide financial protection for gig workers
 •	reduce economic uncertainty
