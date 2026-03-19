@@ -221,22 +221,31 @@ Tables include:
 - Payments
 ### System Architecture
 
-```md id="flow2"
-## **System Architecture**
+[Frontend (React Web App)]  
 
-Frontend (React Web App)  
-⬇  
-Backend API (Spring Boot)  
-⬇  
-Event Monitoring Service  
-⬇  
-AI Risk Engine (Python)  
-⬇  
-Policy & Claim Management System  
-⬇  
-Payment Gateway  
-⬇  
-Database  
+⬇
+
+[Backend API (Spring Boot)]
+
+⬇
+
+[Event Monitoring Service]
+
+⬇
+
+[AI Risk Engine (Python)  ]
+
+⬇
+
+[Policy & Claim Management System  ]
+
+⬇
+
+[Payment Gateway  ]
+
+⬇
+
+[Database  ]
 
 
 
