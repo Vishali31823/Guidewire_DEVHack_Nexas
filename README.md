@@ -219,26 +219,26 @@ Tables include:
 - Events
 - Claims
 - Payments
+  
 ## **System Architecture**
 
 <div align="center">
 
-[Frontend (React Web App)]  
-⬇  
-[Backend API (Spring Boot)]  
-⬇  
-[Event Monitoring Service]  
-⬇  
-[AI Risk Engine (Python)]  
-⬇  
-[Policy & Claim Management System]  
-⬇  
-[Payment Gateway]  
-⬇  
-[Database]  
+Frontend (React Web App)  
+&nbsp;&nbsp;&nbsp;&nbsp;|  
+Backend API (Spring Boot)  
+&nbsp;&nbsp;&nbsp;&nbsp;|  
+Event Monitoring Service  
+&nbsp;&nbsp;&nbsp;&nbsp;|  
+AI Risk Engine (Python)  
+&nbsp;&nbsp;&nbsp;&nbsp;|  
+Policy & Claim Management System  
+&nbsp;&nbsp;&nbsp;&nbsp;|  
+Payment Gateway  
+&nbsp;&nbsp;&nbsp;&nbsp;|  
+Database
 
 </div>
-
 
 
 ## **Development Plan**
